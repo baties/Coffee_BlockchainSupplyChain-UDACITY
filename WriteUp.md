@@ -9,7 +9,6 @@ Web3.js v1.5.2
 truffle-hdwallet-provider 1.0.17
 
 
-
 ### Contract Details
 
 Transaction ID: ``
@@ -21,3 +20,5 @@ Contract Address: [](https://rinkeby.etherscan.io/address/)
 
 -  truffle-hdwallet-provider: It was used to keep the mnemonic secret and to connect to Infura.
 -  Truffle: To compile, test and migrate contracts.
+
+
