@@ -3,14 +3,14 @@ const infuraKey = "1d3512198c8345a1b1816981c999c328";
 //
 // const fs = require('fs');
 // const mnemonic = "weasel core blue sudden ahead chronic scout style subject payment clock affair";
-const mnemonic = "spirit supply whale amount human item harsh scare congress discover talent hamster" ;
+const mnemonic = 'spirit supply whale amount human item harsh scare congress discover talent hamster';
 
 module.exports = {
 
   networks: {
-    host: "127.0.0.1",     // Localhost (default: none)
     development: {
-      port: 7545,            // Standard Ethereum port (default: none)
+      host: "127.0.0.1",     // Localhost (default: none)
+      port: 8545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
      },
     // Useful for deploying to a public network.
