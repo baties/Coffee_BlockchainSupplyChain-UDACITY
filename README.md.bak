@@ -10,6 +10,8 @@ The DApp User Interface when running should look like...
 
 ![truffle test](images/ftc_product_details.png)
 
+![truffle test](images/ftc_transaction_history.png)
+
 
 ## Getting Started
 
@@ -17,29 +19,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* *Ganache CLI* v6.12.2 (ganache-core: 2.13.2)
-* *Truffle* v4.1.14 (core: 4.1.14)
-* *Solidity* v0.4.24 (solc-js)
-* *Node* v14.17.5
-* *NPM* v6.14.10
-* *Web3.js* v1.5.2
-* *truffle-hdwallet-provider* 1.0.17
+Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
 
-### Additional Libraries Used
-
--  **Truffle**: To compile, test and migrate contracts.
--  **Solidity**: To compile Solidity codes.  
--  **Web3**: To Connect on BlockChain.
--  **truffle-hdwallet-provider**: Used to Manage connection to Wallet from Truffle.
--  **Infura**: For Deploying Smart Contract.
-
+```
+Give examples (to be clarified)
+```
 
 ### Installing
+
+> The starter code is written for **Solidity v0.4.24**. At the time of writing, the current Truffle v5 comes with Solidity v0.5 that requires function *mutability* and *visibility* to be specified (please refer to Solidity [documentation](https://docs.soliditylang.org/en/v0.5.0/050-breaking-changes.html) for more details). To use this starter code, please run `npm i -g truffle@4.1.14` to install Truffle v4 with Solidity v0.4.24. 
+
+A step by step series of examples that tell you have to get a development env running
 
 Clone this repository:
 
 ```
-git clone https://github.com/baties/Coffee_BlockchainSupplyChain-UDACITY.git
+git clone https://github.com/udacity/nd1309/tree/master/course-5/project-6
 ```
 
 Change directory to ```project-6``` folder and install all requisite npm packages (as listed in ```package.json```):
@@ -57,7 +52,7 @@ ganache-cli -m "spirit supply whale amount human item harsh scare congress disco
 
 Your terminal should look something like this:
 
-![Ganache CLI](MyImages/My_ganache-cli.png)
+![truffle test](images/ganache-cli.png)
 
 In a separate terminal window, Compile smart contracts:
 
@@ -67,7 +62,7 @@ truffle compile
 
 Your terminal should look something like this:
 
-![Truffle Compile](MyImages/My_truffle_compile.png)
+![truffle test](images/truffle_compile.png)
 
 This will create the smart contract artifacts in folder ```build\contracts```.
 
@@ -79,7 +74,7 @@ truffle migrate
 
 Your terminal should look something like this:
 
-![Truffle Migrate](MyImages/My_truffle_migrate.png)
+![truffle test](images/truffle_migrate.png)
 
 Test smart contracts:
 
@@ -89,7 +84,7 @@ truffle test
 
 All 10 tests should pass.
 
-![Truffle Test](MyImages/My_truffle_test.png)
+![truffle test](images/truffle_test.png)
 
 In a separate terminal window, launch the DApp:
 
@@ -100,15 +95,18 @@ npm run dev
 ## Built With
 
 * [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
+* [IPFS](https://ipfs.io/) - IPFS is the Distributed Web | A peer-to-peer hypermedia protocol
+to make the web faster, safer, and more open.
 * [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
+
+
+## Authors
+
+See also the list of [contributors](https://github.com/your/project/contributors.md) who participated in this project.
 
 ## Acknowledgments
 
-* Solidity  
+* Solidity
 * Ganache-cli
 * Truffle
-
-## Project Write-Up File
-
-* [Project Write-Up](WriteUp.md)
-
+* IPFS

@@ -2,8 +2,8 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 const infuraKey = "1d3512198c8345a1b1816981c999c328";
 //
 // const fs = require('fs');
-const mnemonic = "weasel core blue sudden ahead chronic scout style subject payment clock affair";
-// const mnemonic = 'spirit supply whale amount human item harsh scare congress discover talent hamster';
+// const mnemonic = "weasel core blue sudden ahead chronic scout style subject payment clock affair";
+const mnemonic = 'spirit supply whale amount human item harsh scare congress discover talent hamster';
 
 module.exports = {
 
